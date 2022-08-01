@@ -2,7 +2,11 @@
 import { FC } from 'react'
 import Link from 'next/link';
 
-const Card: FC = ({ dataUser }: any) => {
+interface CardProps {
+    dataUser: any;
+}
+
+const Card: FC<CardProps> = ({ dataUser }: any) => {
   return (
     <section className="dark">
         <div className="container mx-auto">
