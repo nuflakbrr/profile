@@ -53,7 +53,7 @@ const Card: FC<CardProps> = ({ dataUser }: any) => {
                     </div>
 
                     <div className="flex justify-center items-center">
-                        <a href={dataUser?.html_url} className="bg-slate-300 text-slate-700 hover:text-white dark:bg-slate-700 hover:bg-sky-500 dark:hover:bg-sky-500 dark:text-white px-3 py-2 rounded-md">Halaman Github Saya</a>
+                        <a href={dataUser?.html_url} target="_blank" className="bg-slate-300 text-slate-700 hover:text-white dark:bg-slate-700 hover:bg-sky-500 dark:hover:bg-sky-500 dark:text-white px-3 py-2 rounded-md" rel="noreferrer">Halaman Github Saya</a>
                     </div>
                     {/* Stats End */}
                 </div>
