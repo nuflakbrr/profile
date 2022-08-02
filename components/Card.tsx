@@ -40,15 +40,15 @@ const Card: FC<CardProps> = ({ dataUser }: any) => {
                     <div className="flex justify-center items-center mb-5">
                         <div className="flex flex-col justify-center items-center bg-slate-300 dark:bg-slate-700 dark:text-white mx-1 px-3 py-2 rounded-md">
                             <h1>{dataUser?.public_repos}</h1>
-                            <span className="text-xs text-slate-700">Repositori</span>
+                            <span className="text-xs text-slate-700 dark:text-white">Repositori</span>
                         </div>
                         <div className="flex flex-col justify-center items-center bg-slate-300 dark:bg-slate-700 dark:text-white mx-1 px-3 py-2 rounded-md">
                             <h1>{dataUser?.followers}</h1>
-                            <span className="text-xs text-slate-700">Pengikut</span>
+                            <span className="text-xs text-slate-700 dark:text-white">Pengikut</span>
                         </div>
                         <div className="flex flex-col justify-center items-center bg-slate-300 dark:bg-slate-700 dark:text-white mx-1 px-3 py-2 rounded-md">
                             <h1>{dataUser?.following}</h1>
-                            <span className="text-xs text-slate-700">Mengikuti</span>
+                            <span className="text-xs text-slate-700 dark:text-white">Mengikuti</span>
                         </div>
                     </div>
 
