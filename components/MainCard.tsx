@@ -24,7 +24,7 @@ const MainCard: FC = () => {
                         </div>
                         <div className="flex flex-col justify-center items-center">
                             <h1 className="font-semibold leading-[1.2em] text-xl text-gray-900 dark:text-white text-center mb-2">Naufal Akbar Nugroho</h1>
-                            <span className="font-normal text-xs text-gray-700 dark:text-zinc-400 text-center mb-5">Pemuda Bercita-cita Jadi Fullstack Developer</span>
+                            <span className="font-normal text-xs text-gray-700 dark:text-zinc-400 text-center mb-5">Pemuda Yang Pengen Jadi Fullstack Developer</span>
                         </div>
                     </div>
                     {/* content end */}
