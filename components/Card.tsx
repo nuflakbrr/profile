@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
-import { FC } from 'react'
+import { FC } from 'react';
 import Link from 'next/link';
+
+import ThemesSwitch from './ThemesSwitch';
 
 interface CardProps {
     dataUser: any;
@@ -8,14 +10,15 @@ interface CardProps {
 
 const Card: FC<CardProps> = ({ dataUser }: any) => {
   return (
-    <section className="dark">
+    <section>
         <div className="container mx-auto">
             <div className="flex justify-center items-center min-h-screen bg-white dark:bg-slate-900">
                 <div className="flex flex-col w-[300px] bg-slate-100 dark:bg-slate-800 shadow-md rounded-2xl py-8">
-                    <div className="mx-5 -mt-1 flex items-center">
+                    <div className="mx-5 -mt-1 flex justify-between items-center">
                         <Link href="/">
-                            <a className="bg-slate-300 dark:bg-slate-700 dark:text-white hover:bg-sky-500 dark:hover:bg-sky-500 px-2 pb-1 rounded-md text-xl">&larr;</a>
+                            <a className="bg-slate-300 dark:bg-slate-700 text-white hover:bg-sky-500 dark:hover:bg-sky-500 px-2 pb-1 rounded-md text-xl">&larr;</a>
                         </Link>
+                        <ThemesSwitch />
                     </div>
 
                     {/* content */}

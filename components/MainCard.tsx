@@ -1,16 +1,22 @@
 /* eslint-disable @next/next/no-img-element */
-import { FC } from 'react'
+import { FC } from 'react';
 import Link from 'next/link';
-import { FaGithub, FaInstagram, FaGlobeAsia, FaEnvelope } from 'react-icons/fa'
+import { FaGithub, FaInstagram, FaGlobeAsia, FaEnvelope } from 'react-icons/fa';
+
+import ThemesSwitch from './ThemesSwitch';
 
 const Me = '/p.jpg'
 
 const MainCard: FC = () => {
   return (
-    <section className="dark">
+    <section>
         <div className="container mx-auto">
             <div className="flex justify-center items-center min-h-screen bg-white dark:bg-slate-900">
-                <div className="flex flex-col justify-center items-center w-[300px] bg-slate-100 dark:bg-slate-800 shadow-md rounded-2xl py-10">
+                <div className="flex flex-col w-[300px] bg-slate-100 dark:bg-slate-800 shadow-md rounded-2xl py-6">
+                    <div className="flex justify-end px-5">
+                        <ThemesSwitch />
+                    </div>
+                    
                     {/* content */}
                     <div>
                         <div className="w-32 h-32 flex justify-center items-center mx-auto mb-4">
@@ -49,7 +55,9 @@ const MainCard: FC = () => {
                         </li>
                     </ul>
 
-                    <a href="https://saweria.co/NOPALLLL" target="_blank" id="donate" rel="noreferrer" className="font-normal text-base text-slate-600 dark:text-zinc-400 dark:hover:text-sky-500 hover:text-sky-500 underline">Yuk Donate!</a>
+                    <div className="flex justify-center items-center">
+                        <a href="https://saweria.co/NOPALLLL" target="_blank" id="donate" rel="noreferrer" className="font-normal text-base text-slate-600 dark:text-zinc-400 dark:hover:text-sky-500 hover:text-sky-500 underline">Yuk Donate!</a>
+                    </div>
                     {/* link end */}
                 </div>
             </div>

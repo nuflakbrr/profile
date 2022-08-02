@@ -1,8 +1,8 @@
-import React, { FC } from 'react'
+import React, { FC } from 'react';
 import { GetServerSideProps } from 'next';
-import Head from 'next/head'
+import Head from 'next/head';
 
-import Card from '../components/Card'
+import Card from '../components/Card';
 
 export const getServerSideProps: GetServerSideProps = async () => {
     const res = await fetch('https://api.github.com/users/nuflakbrr', {method: 'GET'});
