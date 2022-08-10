@@ -5,7 +5,7 @@ import { FaGithub, FaInstagram, FaGlobeAsia, FaEnvelope } from 'react-icons/fa';
 
 import ThemesSwitch from './ThemesSwitch';
 
-const Me = '/p.jpg'
+const Me = '/pe.jpg'
 
 const MainCard: FC = () => {
   return (
