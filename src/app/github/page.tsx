@@ -1,9 +1,8 @@
 import { FC } from 'react';
 
-import { User } from '@/interfaces/user';
 import ContainerGithub from '@/components/Containers/Github/Github';
 
-export async function fetchData(): Promise<User> {
+export async function fetchData() {
   const response = await fetch('https://api.github.com/users/nuflakbrr');
 
   if (response.ok) {
