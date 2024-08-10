@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title: 'Naufal Akbar Nugroho',
   description:
     'Saya bersemangat membuat kontribusi untuk memberikan pengetahuan teknologi kepada semua orang!',
-  metadataBase: new URL('https://nuflakbrr.github.io/'),
+  metadataBase: new URL('https://nuflakbrr.github.io/profile'),
 };
 
 export default function RootLayout({
