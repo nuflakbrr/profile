@@ -2,7 +2,7 @@ import { FC } from 'react';
 
 import ContainerGithub from '@/components/Containers/Github/Github';
 
-export async function fetchData() {
+async function fetchData() {
   const response = await fetch('https://api.github.com/users/nuflakbrr');
 
   if (response.ok) {
