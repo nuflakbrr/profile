@@ -18,7 +18,7 @@ const ContainerHome: FC = () => {
             <div>
               <div className="flex items-center justify-center w-32 h-32 mx-auto mb-4">
                 <img
-                  src="/static/images/p.jpg"
+                  src="/static/images/profile-picture-new.jpg"
                   alt="Profile Picture"
                   className="object-cover w-full rounded-full"
                 />
