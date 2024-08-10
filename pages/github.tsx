@@ -22,7 +22,7 @@ const Github: FC = ({ data }: any) => {
                 <title>Github - Naufal Akbar Nugroho</title>
             </Head>
 
-            <main>
+            <main className='bg-white dark:bg-[#1a1a1a]'>
                 <Card dataUser={data} />
             </main>
         </>

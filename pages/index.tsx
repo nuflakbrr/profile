@@ -25,7 +25,7 @@ const Home: FC = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <main className='bg-white dark:bg-[#1a1a1a]'>
         <MainCard />
       </main>
     </>

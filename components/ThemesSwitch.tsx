@@ -23,7 +23,7 @@ const ThemesSwitch: FC = () => {
     };
 
     return (
-        <div className='flex h-9 w-9 items-center justify-center rounded-full bg-slate-300 dark:bg-slate-700 text-slate-50 dark:hover:bg-sky-500 hover:bg-sky-500 hover:text-zinc-50'>
+        <div className='flex items-center justify-center rounded-full h-9 w-9 bg-slate-200 dark:bg-neutral-700 text-slate-900 dark:text-zinc-50 dark:hover:bg-sky-600 hover:bg-sky-500 hover:text-white'>
             {renderThemeChanger()}
         </div>
     );
