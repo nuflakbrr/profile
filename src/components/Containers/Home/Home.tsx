@@ -4,8 +4,6 @@ import Link from 'next/link';
 
 import ThemesSwitch from '@/components/Common/ThemesSwitch';
 
-const Me = '/assets/img/p.jpg';
-
 const ContainerHome: FC = () => {
   return (
     <section>
@@ -20,7 +18,7 @@ const ContainerHome: FC = () => {
             <div>
               <div className="flex items-center justify-center w-32 h-32 mx-auto mb-4">
                 <img
-                  src={Me}
+                  src="/static/images/p.jpg"
                   alt="Profile Picture"
                   className="object-cover w-full rounded-full"
                 />
