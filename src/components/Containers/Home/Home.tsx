@@ -78,7 +78,7 @@ const ContainerHome: FC = () => {
 
             <div className="flex items-center justify-center">
               <Link
-                href="https://saweria.co/NOPALLLL"
+                href="https://saweria.co/nuflakbrr"
                 target="_blank"
                 id="donate"
                 rel="noreferrer"
