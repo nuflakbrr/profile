@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { FaEnvelope, FaGithub, FaGlobeAsia, FaInstagram } from 'react-icons/fa';
+import { FaEnvelope, FaGithub, FaGlobeAsia, FaLinkedin } from 'react-icons/fa';
 import Link from 'next/link';
 
 import ThemesSwitch from '@/components/Common/ThemesSwitch';
@@ -46,12 +46,12 @@ const ContainerHome: FC = () => {
               </li>
               <li>
                 <Link
-                  href="https://www.instagram.com/kbrnugroho"
+                  href="https://www.linkedin.com/in/nuflakbrr"
                   target="_blank"
                   rel="noreferrer"
                   className="flex items-center justify-center mx-1 rounded-full h-9 w-9 bg-slate-300/70 dark:bg-neutral-700 text-slate-400 dark:text-zinc-50 dark:hover:bg-sky-600 hover:bg-sky-500 hover:text-zinc-50"
                 >
-                  <FaInstagram className="text-2xl" />
+                  <FaLinkedin className="text-2xl" />
                 </Link>
               </li>
               <li>
